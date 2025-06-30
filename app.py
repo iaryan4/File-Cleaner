@@ -147,6 +147,7 @@ if uploaded_data:
         st.write(cleaned_df)
 
         # Final download section
+        final_df = cleaned_df
         st.markdown("### 📥 Download Cleaned Data")
 
         export_format = st.radio("Select export format:", ["CSV", "Excel"], horizontal=True)
